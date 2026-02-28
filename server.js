@@ -1,5 +1,4 @@
 const express = require("express");
-const fetch = require("node-fetch"); // only needed if Node < 18
 const path = require("path");
 
 const app = express();
@@ -35,4 +34,5 @@ app.post("/api/analyze", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
