@@ -2,12 +2,13 @@
   "name": "lexis",
   "version": "1.0.0",
   "description": "NLP Text Analyzer",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {},
   "engines": {
     "node": "18.x"
   }
+
 }
