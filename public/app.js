@@ -131,7 +131,7 @@ Score dimension labels for this mode:
   coherence -> "${mode.labels.coherence}"
   lexical   -> "${mode.labels.lexical}"
 
-Return EXACTLY this JSON structure:
+Return EXACTLY this JSON structure the parts that you need to actually put in are the parts enclosed with these: <> keep the structure and all the strings the EXACT SAME, NO CHANGE:
 {
   "ai_summary": {
     "headline": "<One punchy, specific verdict sentence — reference the actual text, not generic praise/criticism>",
@@ -312,4 +312,5 @@ function renderResults(r, mode) {
 
   // Scroll to results
   setTimeout(() => resultsEl.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+
 }
